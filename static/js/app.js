@@ -1,3 +1,9 @@
+// from data.js
+const tableData = data;
+
+// get table references
+var tbody = d3.select("tbody");
+
 function buildTable(data) {
     // First, clear out any existing data
     tbody.html("");
@@ -39,6 +45,4 @@ function buildTable(data) {
   
   // Attach an event to listen for the form button
   d3.selectAll("#filter-btn").on("click", handleClick);
-  
-  // Build the table when the page loads
-  buildTable(tableData);
+  buildTable(tableData)
