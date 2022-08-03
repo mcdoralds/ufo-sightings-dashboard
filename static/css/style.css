@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+body {
+
+    color: #f7f7f7;
+  }
+
+ 
+ .jumbotron {
+    background-image: url("../images/lain-alien.png");
+    background-size: 100% 100%;
+    text-align: center;
+    min-height: 500px;
+    font-size: x-large;
+    font-family: 'Audiowide';
+  }
+
+  
