@@ -1,4 +1,4 @@
-# UFO Sightings
+# UFO Sightings Dashboard
 ## Project Overview
 This project takes UFO sightings data in .csv form from Kaggle and allows users to interact with it through a webpage. The webpage contains a filterable table of the sightings and allows users to search & filter by date, location, or description of the UFO in the witness testimonial.
 
@@ -51,8 +51,8 @@ Showcase JavaScript + HTML skills.
 #### Tools & Software
 - JavaScript 
   - D3.js
-- HTML
-- CSS
+- HTML/CSS
+  - Bootstrap
 
 ## Results
 ### Screenshots
