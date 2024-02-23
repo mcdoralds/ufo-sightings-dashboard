@@ -57,7 +57,7 @@ Showcase JavaScript + HTML skills.
 ## Results
 ### Screenshots
 
-![image](https://github.com/mcdoralds/databootcamp-ufo-sightings/assets/31219195/d0c6ca94-b91c-4ad4-9a14-059e7a9d3b17)
+![image](https://github.com/mcdoralds/ufo-sightings-dashboard/assets/31219195/d78364de-9430-4310-86fe-17abc224c4ff)
 
 ### Features
 - Table visualization of imported data
