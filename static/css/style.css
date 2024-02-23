@@ -1,18 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+nav a, a:hover {
+  color: rgb(0, 255, 0);  
+}
 
 body {
-
-    color: #f7f7f7;
+    background-color: #1f1f1f;
+    color: rgb(0, 255, 0);
+    font-family: 'Kode Mono', monospace;
   }
 
- 
  .jumbotron {
-    background-image: url("../images/lain-alien.png");
-    background-size: 100% 100%;
+    background-image: url("../images/alien.jpg");
+    background-position: center;
+    background-color: #1f1f1f;
+  
     text-align: center;
     min-height: 500px;
     font-size: x-large;
     font-family: 'Audiowide';
+  }
+
+  .filters {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); 
+    margin: 20px;
+  }
+
+  .filter-header {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+
+  .list-group-item{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+  }
+
+  .list-group-item label {
+    flex: 0 0 auto; 
+    margin-right: 20px; 
+    text-align: left; 
+    white-space: nowrap; 
+  }
+  
+  .list-group-item input[type="text"] {
+    flex: 1; 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+  }
+
+  .table {
+    color: rgb(0, 255, 0);
+
+  }
+
+  table tr:hover {
+    background-color: #323232; 
+    /* cursor: pointer; */
   }
 
   

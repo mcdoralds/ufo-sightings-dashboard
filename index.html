@@ -3,29 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <title>UFO Finder</title>
+  <title>UFO Sightings Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-
-
-  <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="static/css/style.css">
-
 </head>
 
-<body class="bg-dark">
-  <div class="wrapper">
-
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+<body>
+  <div class = "header">
+    <nav class="navbar">
       <a class="navbar-brand" href="index.html">UFO Sightings</a>
     </nav>
 
@@ -33,51 +21,60 @@
       <h1 class="display-4">The Truth is Out There</h1>
     </div> 
   </div>
-</body>
 
-<div class="container-fluid">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4">
-        <h3>UFO Sightings: Fact of Fancy? <small>Ufologists Weigh In</small></h3>
+      <div class="col-md-3">
+        <h3>UFO/UAP Sighting Tracker</h3>
       </div>
-      <div class="col-md-8">
+
+      <div class="col-md-9">
         <p>
-          Are we alone in the universe? For millennia, humans have turned to the sky to answer this question. Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can supplement our sky-searching with data analysis.<br><br>"The release of this analysis is well-timed: It coincides with the celebration of World UFO Day, which is a moment for ufologists around the world to connect, relax, and sample a range of UFO-themed snacks," said Dr. Ursula F. Olivier, the world's preeminent expert on circular sightings. "Citizen-scientists can be especially helpful in both cataloguing sightings—which is hugely helpful for us in our search for aliens—and in helping us celebrate the work that has already been done, such as this data visualization project, which will help us raise awareness of the ubiquity of sightings!"<br><br>Not everyone is ready to celebrate, however. Local CEO and vocal anti-alien activist V. Isualize reached out to our reporters to go on record as firmly opposed to any attempts to provide access to this data. "If there are aliens, they certainly would like to be left alone," she stated, before directing us to the Leave Aliens Alone (LAA) community engagement initiative she founded and funds.<br><br>So what do YOU think? Are we alone in the universe? Are aliens trying to contact us, or do they want to be left alone? Dig through the data yourself, and let us know what you see.
-        </p>
+
+            The concept of intelligent life beyond Earth isn't just science fiction—it's a reality increasingly accepted by society. 
+            However, the conversation shifts when it comes to tangible evidence of their communication or visits to our planet.
+
+            UFOs, also recently recoined "unidentified aerial phenomena" (UAPs), 
+            reflecting a shift from a sensationalist lens towards a more neutral stance,
+            are both a staple of pop culture and a source of debate. 
+            These enigmatic sightings have fueled both fascination and skepticism, 
+            often dismissed by scientists yet supported by a myriad of unexplained encounters. 
+
+            Despite the controversy, the abundance of unexplained aerial encounters suggests there are layers of our universe yet to be unveiled, 
+            challenging us to expand our understanding of the possible.
+          </p>
       </div>
     </div>
   </div>
-
-<br>
-<br>
+  <br>
 
 <div class="container-fluid">
   <div class="row">
-      <div class="col-md-3">
-          <form class="bg-dark">
-              <p>Filter Search</p>
+      <div class="filters-container">
+          <form class="filters">
+              <center><p class="filter-header">Filter Search</p></center>
               <!-- Date Filter Field -->
-              <li class="list-group-item bg-dark">
+              <li class="list-group-item">
               <label for="date">Enter Date</label>
               <input type="text" placeholder="4/20/2010" id="datetime" />
               </li>
               <!-- City Filter Field -->
-              <li class="list-group-item bg-dark">
+              <li class="list-group-item">
               <label for="city">Enter City</label>
               <input type="text" placeholder="San Diego" id="city" />
               </li>
               <!-- State Filter Field -->
-              <li class="list-group-item bg-dark">
+              <li class="list-group-item">
               <label for="state">Enter State</label>
               <input type="text" placeholder="CA" id="state" />
               </li>
               <!-- Country Filter Field -->
-              <li class="list-group-item bg-dark">
+              <li class="list-group-item">
               <label for="country">Enter Country</label>
               <input type="text" placeholder="US" id="country" />
               </li>
               <!-- Shape Filter Field -->
-              <li class="list-group-item bg-dark">
+              <li class="list-group-item">
               <label for="shape">Enter Shape</label>
               <input type="text" placeholder="sphere" id="shape" />
               </li>
@@ -104,6 +101,7 @@
       </div>
     </div>
   </div>
+</body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> 
   <script src="/static/js/data.js"></script>
